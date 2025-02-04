@@ -34,7 +34,6 @@ func main() {
 			mensaje := <-canal
 			fmt.Println(mensaje)
 		}
-
 		i++
 	}
 }
